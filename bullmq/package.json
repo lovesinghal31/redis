@@ -1,0 +1,15 @@
+{
+  "name": "bullmq-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node src/api.js",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.78.0",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.0"
+  }
+}
